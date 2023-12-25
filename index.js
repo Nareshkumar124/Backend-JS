@@ -2,7 +2,7 @@ import express from "express"
 import "dotenv/config"
 const app=express()
 
-app.get('/youtube',(req,res)=>{
+app.get('/',(req,res)=>{
     console.log(req)
     res.send("<marquee>YouTube Naresh Kumar</marquee>")
 })
